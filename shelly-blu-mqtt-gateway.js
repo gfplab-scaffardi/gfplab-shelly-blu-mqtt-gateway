@@ -1,3 +1,13 @@
+/**
+ * @title Shelly BLU MQTT Gateway for Giano Supervisor
+ * @description This scripts auto configures itself for decoding specific list of BTHOME devices (from a MQTT whitelist) and publish the status over MQTT
+ * @link https://www.gfplab.com/solutions
+ * @status production
+ *
+ * Original Shelly Script/License
+ * @link https://github.com/ALLTERCO/shelly-script-examples/blob/main/ble/ble-shelly-dw.shelly.js
+ */
+ 
 let DEBUG_ENABLED = true ;
 let DEBUG_UNKNOWN_MAC = false ; // Log each unknown BLE MAC once (not in whitelist)
 let USE_EVENTS = false ; // Slower method
